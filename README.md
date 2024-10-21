@@ -34,8 +34,8 @@ This project focuses on developing a next-generation information retrieval syste
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone git@github.com:mrizwanakram/Next-Gen-Info-Retrieval-with-LlamaIndex-and-Google-Gemini.git
+   cd Next-Gen-Info-Retrieval-with-LlamaIndex-and-Google-Gemini
 
 
 2. Install the dependencies:
