@@ -1,6 +1,3 @@
-Here’s a basic structure for the `README.md` file for **Next-Gen Info Retrieval with LlamaIndex and Google Gemini**:
-
-```md
 # Next-Gen Info Retrieval with LlamaIndex and Google Gemini
 
 This project focuses on developing a next-generation information retrieval system using **LlamaIndex** and **Google Gemini** to efficiently search and retrieve relevant data from various sources such as PDFs and databases.
@@ -39,44 +36,3 @@ This project focuses on developing a next-generation information retrieval syste
    ```bash
    git clone <repository_url>
    cd <repository_name>
-   ```
-
-2. Install the dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the setup:
-   ```bash
-   python setup.py install
-   ```
-
-## Running the Application
-
-To start the **Streamlit** application, use the following command:
-```bash
-streamlit run StreamlitApp.py
-```
-
-## Directory Overview
-
-- **Data**: Stores input datasets, including PDFs.
-- **Experiments**: Houses experiments related to information retrieval techniques.
-- **logs**: Execution logs for monitoring and debugging purposes.
-- **notebook**: Jupyter notebooks for interactive development and experimentation.
-
-## Logging
-
-- **logger.py** is configured to log important events and errors during the retrieval process.
-- You can check the logs in the `logs/` directory for details.
-
-## Error Handling
-
-- **exception.py** provides custom error classes to handle different error scenarios gracefully.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-This README gives an overview of the project structure, explains key modules, and provides instructions on how to set up and run the application. You can further customize it as needed based on specific project details.
